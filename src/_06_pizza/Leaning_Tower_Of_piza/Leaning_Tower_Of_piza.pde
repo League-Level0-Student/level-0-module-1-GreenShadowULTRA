@@ -1,4 +1,4 @@
-import ddf.minim.*; 
+
 size (850, 850); 
 
 fill (234, 230, 178); 
