@@ -7,7 +7,19 @@ fill (255, 255, 255);
 ellipse(197, 175, 43, 43);
 
 ellipse(268, 175, 27, 27); 
+
+fill (0, 0, 0);
+ellipse(197, 175, 25, 25);
+
+ellipse(268, 175, 20, 20); 
 }
+
 void draw(){
-  line(mouseX, 20, mouseX, 80);
+  
+ fill (mouseX, mouseY, mouseX); 
+ 
+ ellipse(197, 175, 43, 43);
+
+ellipse(268, 175, 27, 27); 
+  
 }
